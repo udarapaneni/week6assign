@@ -14,8 +14,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
-  margin: 0;
+  margin: 02px;
   background-color: azure;
 }
 
@@ -55,4 +54,19 @@ a:visited {
 a:hover,
 a:active {
   background-color: red;
+}
+
+img {
+  height: 2%;
+  width: 5%;
+  display: block;
+  margin-left: auto;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
 }
