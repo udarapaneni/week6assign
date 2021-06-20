@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+        <a href="convert.html">&#8451 to &#8457 Converter</a>
+    </nav>
+    <span class="calc">
+      <h2>Grade Calculator</h2>
+      <p>
+        Enter Marks in Cloud Application & Deployment
+        <input type="number" id="cad" value="0" />
+      </p>
+      <p>
+        Enter Marks in Win Server 2016
+        <input type="number" id="win" value="0" />
+      </p>
+      <p>
+        Enter Marks in Mobile Device Fundamentals
+        <input type="number" id="mob" value="0" />
+      </p>
+      <p>
+        Enter Marks in MS Exchange Server
+        <input type="number" id="mex" value="0" />
+      </p>
+      <p>
+        Enter Marks in SQL Server <input type="number" id="sql" value="0" />
+      </p>
+      <p>
+        <button type="submit" id="sub" onclick="averageGrade()">
+          Calculate
+        </button>
+      </p>
+      <p id="result"></p>
+    </span>
+        <div id="dt"></div>
+    <script src="script.js"></script>  
+  </body>
+</html>

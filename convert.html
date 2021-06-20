@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Grade Calculator</a>
+    </nav>
+    <span class="fToC">
+      <h2>Celsius To Fahrenheit Converter</h2>
+      <p>
+        Enter Temperature in &#8451;
+        <input type="number" id="cen" value="0" /><button
+          type="submit"
+          onclick="CtoF()"
+        >
+          Convert
+        </button>
+      </p>
+      <p id="far"></p>
+    </span>
+    <div id="dt"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
