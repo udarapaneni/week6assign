@@ -15,6 +15,11 @@ function averageGrade() {
   mob = Number(document.getElementById('mob').value);
   mex = Number(document.getElementById('mex').value);
   sql = Number(document.getElementById('sql').value);
+
+  if (cad === '' || win === '' || mob === '' || mex === '' || sql === '') {
+    alert('Please enter all inputs');
+    return 1;
+  }
   total = Math.round((cad + win + mob + mex + sql) / 5);
 
   if (total >= 80) result = 'A';
